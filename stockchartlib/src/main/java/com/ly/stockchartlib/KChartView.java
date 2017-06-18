@@ -260,7 +260,7 @@ public class KChartView extends View{
     }
 
     private void drawCrossLine(Canvas canvas){
-        if(crossX==0&&crossX==0)return;
+        if(crossX==0&&crossY==0)return;
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(dp2px(1));
         paint.setColor(Color.parseColor("#ffffff"));

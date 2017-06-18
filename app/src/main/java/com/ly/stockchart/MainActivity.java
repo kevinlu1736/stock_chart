@@ -195,6 +195,8 @@ public class MainActivity extends AppCompatActivity implements TriStrokeBtn.OnPr
     @Override
     protected void onPause() {
         super.onPause();
-        moveThread.setNeedMove(false);
+        if(moveThread!=null){
+            moveThread.setNeedMove(false);
+        }
     }
 }
