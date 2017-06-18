@@ -29,7 +29,7 @@ public class KChartView extends View{
     private float endGap=0;
 
     private float candleStickWidth;
-    private float displayHeightRatio = 0.8f;
+    private float displayHeightRatio = 0.9f;
     private float bottomPadding = dp2px(5);
     private float displayTop;
     private float displayBottom;
