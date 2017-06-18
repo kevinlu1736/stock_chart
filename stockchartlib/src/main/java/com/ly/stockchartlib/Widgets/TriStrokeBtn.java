@@ -61,6 +61,7 @@ public class TriStrokeBtn extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
+        canvas.save();
         if(direction==DIRECTION_RIGHT){
             canvas.rotate(180, viewWidth/2f, viewHeight/2f);
         }
